@@ -1,6 +1,10 @@
 body{
     height: 100vh;
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    /* background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); */
+    background-image: url(./фото/m5.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -8,14 +12,14 @@ body{
     font-family: 'Segoe UI', sans-serif;
 }
 .glass-clock{
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.5);
     box-shadow: 0 8px 32px rgba(0,0,0,0.37);
-    padding: 30px 50px;
+    padding: 9px 15px;
     border-radius: 20px;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(255,255,255,0.18);
-    color: #fff;
+    color: #0019fd;
     font-size: 3rem;
     letter-spacing: 2px;
     text-align: center;
